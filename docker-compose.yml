@@ -3,10 +3,11 @@ version: "3.8"
 # definindo um service web
 services:
   web:
+    container_name: api-django
     # referenciando que o dockerfile está no diretório atual
     build: .
     # inicializando o servidor do django
-    command: python manage.py runserver localhost:8000
+    command: python manage.py runserver 0.0.0.0:8000
     # sincronizando os arquivos locais com o docker
     volumes:
       - .:/API-Django-Rest
