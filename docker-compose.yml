@@ -12,5 +12,5 @@ services:
     volumes:
       - .:/API-Django-Rest
     # expondo porta 8000
-    ports:
+    ports: 
       - 8000:8000
