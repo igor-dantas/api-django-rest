@@ -7,4 +7,4 @@ class noticias(models.Model):
     conteudo = models.CharField(max_length=255)
     autor = models.CharField(max_length=255)
     publicado = models.BooleanField()
-    data_criacao = models.DateField(auto_now_add=True)
+    data_criacao = models.DateTimeField(auto_now_add=True)
