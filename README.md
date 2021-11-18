@@ -35,5 +35,9 @@
 ```
 http://localhost:8000
 ```
+* 6 - 🛑 após a utilização da api, recomendo que rode o comando abaixo, afim de interromper e remover os containers:
+```
+  docker-compose down
+```
 
 <p> se tudo ocorrer bem, a api estará funcionando, você pode utilizar o postman para teste de verbos http ✔️ <p/>
